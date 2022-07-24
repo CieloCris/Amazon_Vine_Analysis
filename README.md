@@ -7,12 +7,11 @@ In this project, our purpose is to examine Amazon customer reviews. In other wor
 Some companies, such as SellBy, pay a price to Amazon Vine in order to receive reviews of their products.
 
 To achieve our goal, we use an Amazon URL as the data source. We chose a camera dataset, which is shown below:
+https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Camera_v1_00.tsv.gz
 
 For this Challenge, we use PySpark, AWS RDS, PgAdmin, Google Collab, and PostgreSQL as tools. We ran the ETL process with PySpark and Google Collab and collected the data with the support of Amazon RDS and PostgreSQL.
 
-## Results
-
-The following screenshots show the ETL process in Google Collab and the SQL tables.
+The following screenshots show the ETL process with PySpark in Google Collab and the SQL tables.
 
 #### Examples of our ETL process
 ![Alt text](/Resources/1.png "imagen1")
@@ -23,6 +22,8 @@ The following screenshots show the ETL process in Google Collab and the SQL tabl
 
 #### Tables in PgAdmin
 ![Alt text](/Resources/postgres.png "imagen4")
+
+## Results
 
 **How many Vine reviews and non-Vine reviews were there?**
 
